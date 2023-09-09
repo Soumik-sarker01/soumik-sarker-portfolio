@@ -41,7 +41,7 @@ nav {
 }
 
 .nav-title {
-    color: var(--Dark-01, #181818);
+    color: #181818;
     font-size: 35px;
     font-weight: 800;
 }
@@ -64,13 +64,13 @@ nav a {
 /* header related class */
 .header {
     background-color: #E0FFD6;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
-    padding: 30px 30px 0px 150px;
+    padding: 10px 100px 100px 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,6 +78,7 @@ nav a {
 
 .banner-content {
     max-width: 500px;
+    padding: 10px 0;
 }
 
 .banner .profile-picture {
